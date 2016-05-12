@@ -1,0 +1,25 @@
+{
+  "name": "Half Me",
+  "description": "Just scales selected layer to 50%",
+  "author": "Roman Shamin",
+  "homepage": "https://github.com/romashamin/half-me-sketch",
+  "version": 1.0,
+  "identifier": "com.github.romashamin.half-me-sketch",
+  "updateURL": "https://github.com/romashamin/half-me-sketch",
+  "compatibleVersion": 3,
+  "bundleVersion": 1.0,
+  "commands": [
+    {
+      "name": "Scale to 50%",
+      "identifier": "scale-to-50",
+      "shortcut": "cmd shift k",
+      "script": "half-me.cocoascript",
+      "handler": "onRun"
+    }
+  ],
+  "menu": {
+    "items": [
+      "scale-to-50"
+    ]
+  }
+}

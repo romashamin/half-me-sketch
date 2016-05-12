@@ -1,0 +1,50 @@
+/**
+ * Half Me 1.0
+ *
+ * Copyright © 2016 Roman Shamin https://github.com/romashamin
+ * and licenced under the MIT licence. All rights not explicitly
+ * granted in the MIT license are reserved. See the included
+ * LICENSE file for more details.
+ *
+ * https://github.com/romashamin/
+ * https://twitter.com/romanshamin
+ */
+
+
+
+/**
+ * Scales the selected layer to 50%
+ * @param {MSLayerGroup|MSShapeGroup|MSTextLayer} layer
+ */
+
+function processSelection(layer) {
+  var layerWidth  = [[layer frame] width]
+  var layerHeight = [[layer frame] height]
+
+  [[layer frame] setWidth:layerWidth / 2]
+  [[layer frame] setHeight:layerHeight / 2]
+}
+
+
+
+/**
+ * Entry point
+ * @param {NSDictionary} context
+ */
+
+function onRun(context) {
+  var doc        = context.document
+  var selection  = [doc findSelectedLayers]
+  var pluginName = 'Half Me'
+
+  if ([selection count] > 0) {
+    var loopSelection = [selection objectEnumerator]
+    while (layerSelected = [loopSelection nextObject]) {
+      processSelection(layerSelected)
+    }
+  } else {
+    [doc showMessage: pluginName + ': select something']
+  }
+}
+
+//onRun(context)
