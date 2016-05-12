@@ -7,7 +7,7 @@ Sketch plugin that just scales selected layer to 50% (⇧⌘K).
 ### Install
 
 1. Download and unzip: [half-me-sketch-master.zip].
-2. Open Sketch.app, go to `Plugins → Reveal Plugins Folder...` and place `Half-Me.sketchplugin` there.
+2. Open Sketch.app, go to `Plugins → Manage Plugins... → (Gear Icon in the bottom left corner) → Show Plugins Folder` and place `Half-Me.sketchplugin` there.
 
 [half-me-sketch-master.zip]: https://github.com/romashamin/half-me-sketch/archive/master.zip
 
