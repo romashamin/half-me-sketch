@@ -17,7 +17,7 @@ Sketch plugin that just scales selected layer to 50% (⇧⌘K).
 
 ### System Requirements
 
-Half Me has been tested on Sketch 45 on OS X Yosemite. If you have any problems, drop me a line: [@romanshamin].
+Half Me has been tested on Sketch 45.1 on macOS Sierra. If you have any problems, drop me a line: [@romanshamin].
 
 [@romanshamin]: https://twitter.com/romanshamin
 
