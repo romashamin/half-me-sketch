@@ -6,7 +6,7 @@ Sketch plugin that just scales selected layer to 50% (⇧⌘K).
 
 <img width="192" height="30" src="https://osom.coffee/files/002/419/551/2419551/original/plugin-updates_2x.png" title="Plugin Update Badge">
 
-**Sort Me 1.3 supports Sketch 45 plugin update system**
+**Half Me 1.2 supports Sketch 45 plugin update system**
 
 ### Install
 
