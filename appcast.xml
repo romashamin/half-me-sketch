@@ -6,15 +6,15 @@
     <description>Just scales selected layer to 50%</description>
     <language>en</language>
       <item>
-        <title>Version 1.2</title>
+        <title>Version 1.3</title>
         <description>
           <![CDATA[
             <ul>
-              <li>Support for Sketch 45 plugin update system</li>
+              <li>Test update</li>
             </ul>
           ]]>
         </description>
-        <enclosure url="https://github.com/romashamin/half-me-sketch/archive/master.zip" sparkle:version="1.2" />
+        <enclosure url="https://github.com/romashamin/half-me-sketch/archive/master.zip" sparkle:version="1.3" />
       </item>
   </channel>
 </rss>
