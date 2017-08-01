@@ -6,7 +6,7 @@ Sketch plugin that just scales selected layer to 50% (⇧⌘K).
 
 <img width="192" height="30" src="https://osom.coffee/files/002/419/551/2419551/original/plugin-updates_2x.png" title="Plugin Update Badge">
 
-**Half Me 1.3 supports Sketch 45 plugin update system**
+**Half Me 1.3 supports Sketch plugin update system**
 
 ### Install
 
@@ -17,7 +17,7 @@ Sketch plugin that just scales selected layer to 50% (⇧⌘K).
 
 ### System Requirements
 
-Half Me has been tested on Sketch 45.1 on macOS Sierra. If you have any problems, drop me a line: [@romanshamin].
+Half Me has been tested on Sketch 46 on macOS Sierra. If you have any problems, drop me a line: [@romanshamin].
 
 [@romanshamin]: https://twitter.com/romanshamin
 
