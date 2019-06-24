@@ -4,10 +4,6 @@
 
 Sketch plugin that just scales selected layer to 50% (⇧⌘K).
 
-<img width="192" height="30" src="https://osom.coffee/files/002/419/551/2419551/original/plugin-updates_2x.png" title="Plugin Update Badge">
-
-**Half Me 1.3 supports Sketch plugin update system**
-
 ### Install
 
 1. Download and unzip: [half-me-sketch-master.zip].
